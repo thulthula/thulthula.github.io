@@ -24,3 +24,4 @@ kramdown:
 
 # Minimal settings
 show_excerpts: false
+future: true
