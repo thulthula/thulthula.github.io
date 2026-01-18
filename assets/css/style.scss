@@ -44,3 +44,38 @@ blockquote {
   padding: 10px 15px;
   border-radius: 0 4px 4px 0;
 }
+
+.post-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.post-list > li {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1.5em;
+}
+
+.post-list > li:last-child {
+  border-bottom: none;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: #828282;
+  display: block;
+  margin-top: 0.3em;
+}
+
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: auto;
+  padding: 15px 0;
+}
+
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 20px 0;
+}
