@@ -1,0 +1,23 @@
+title: "Personal Blog"
+email: atuldev227@gmail.com
+description: >-
+  A peek.
+baseurl: ""
+url: ""
+github_username:  thulthula
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Math and Code Settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
