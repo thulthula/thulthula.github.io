@@ -21,3 +21,6 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
+
+# Minimal settings
+show_excerpts: false
