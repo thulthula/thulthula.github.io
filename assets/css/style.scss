@@ -97,3 +97,8 @@ figcaption {
   padding: 0.1em 0.2em;      /* Gives it a little breathing room */
   border-radius: 3px;        /* Makes the corners slightly rounded */
 }
+
+.small-text {
+  font-size: 0.85em; /* Reduces size to 85% of normal */
+  line-height: 1.5;   /* Tightens the lines a bit for better readability */
+}
