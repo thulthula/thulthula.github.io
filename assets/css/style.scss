@@ -102,3 +102,21 @@ figcaption {
   font-size: 0.85em; /* Reduces size to 85% of normal */
   line-height: 1.5;   /* Tightens the lines a bit for better readability */
 }
+
+/* Gold Quote Box and Text */
+blockquote.gold-quote {
+  border-left: 5px solid #d4af37; /* The vertical line: A rich, classic gold */
+  padding-left: 20px;
+  margin: 1.5em 10px;
+  
+  /* Text styling */
+  color: #b58900;              /* A deeper, readable gold color for the text */
+  font-family: 'Georgia', serif; /* Optional: A classic font suitable for quotes */
+  font-style: italic;
+  
+  /* Background styling */
+  background: linear-gradient(135deg, #fffcf0 0%, #fff8e1 100%); /* Very faint, subtle gold gradient */
+  padding: 15px 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(212, 175, 55, 0.1); /* Very subtle gold shadow */
+}
