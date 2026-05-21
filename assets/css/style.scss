@@ -91,3 +91,9 @@ figcaption {
   font-style: italic;
   margin-top: 8px;
 }
+
+.highlight {
+  background-color: #fff3bf; /* This is a soft yellow; change the hex code for other colors */
+  padding: 0.1em 0.2em;      /* Gives it a little breathing room */
+  border-radius: 3px;        /* Makes the corners slightly rounded */
+}
