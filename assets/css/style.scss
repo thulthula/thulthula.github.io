@@ -121,26 +121,21 @@ blockquote.gold-quote {
   box-shadow: 2px 2px 5px rgba(212, 175, 55, 0.1); /* Very subtle gold shadow */
 }
 
-.offset-list {
-  list-style: none; /* Removes standard bullets */
-  padding-left: 0;
-}
-
-.offset-list li {
-  display: grid;
-  grid-template-columns: 60px 1fr; /* 60px for the number, the rest for text */
-  margin-bottom: 20px;
-  align-items: baseline; /* Keeps the number aligned with the first line of text */
-}
-
-.offset-list li .number {
-  font-size: 3em; /* Make the number large */
+/* Style for your large numbers */
+.num-large {
+  font-size: 2.5em;       /* Larger than regular text */
   font-weight: 800;
-  color: #d4af37; /* Use your Gold color or a light grey #ccc */
-  line-height: 1;
+  color: #333;            /* Dark grey or match your text color */
+  margin-right: 10px;     /* Small space between number and text */
+  vertical-align: middle; /* Aligns number with the text line */
 }
 
-.offset-list li .content {
-  font-size: 1.1em;
-  padding-top: 5px;
+/* Style for the Drop Cap (like the V in your example) */
+.drop-cap {
+  float: left;
+  font-size: 4em;
+  line-height: 0.8;
+  padding-top: 4px;
+  padding-right: 8px;
+  font-weight: bold;
 }
