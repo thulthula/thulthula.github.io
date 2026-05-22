@@ -150,9 +150,3 @@ blockquote.gold-quote {
   margin-top: -5px;      /* Tweak this to align perfectly with your font */
 }
 
-/* This clearfix helps the next section stay separated */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
