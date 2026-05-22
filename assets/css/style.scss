@@ -139,3 +139,20 @@ blockquote.gold-quote {
   padding-right: 8px;
   font-weight: bold;
 }
+
+.drop-number {
+  float: left;           /* This makes the text wrap to the right */
+  font-size: 4em;        /* Adjust size so it spans ~2 lines */
+  font-weight: 800;
+  color: #333;
+  line-height: 0.9;      /* Tightens it so it's not too tall */
+  margin-right: 15px;    /* Space between number and text */
+  margin-top: -5px;      /* Tweak this to align perfectly with your font */
+}
+
+/* This clearfix helps the next section stay separated */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
